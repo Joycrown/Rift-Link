@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.form-que{
+    font-size: 1.3vw !important;
+    font-weight: 600 !important;
+}
+
+#occupation{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 65% !important;
+}
+.occupation{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 1.1vw!important;
+    font-style: normal !important;
+}
+.check-box-1{
+    border: 0.2px solid black !important;
+}
+.arrow{
+    width: 6% !important;
+    height: 3.5vh !important;
+}
+.validation{
+    color: red !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 1.1vw!important;
+    font-style: normal !important;
+
+}
+.su2-sub-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 1vw!important;
+    font-style: normal !important;
+}
+.signin-desktop{
+    display: block;
+}
+.signup2-tab{
+display: none;
+}
+
+
+ /* TABLET */
+ @media (max-width: 768px){
+
+    .signin-desktop{
+        display: none;
+    }
+    .signup2-tab{
+    display: block;
+    }
+
+    .occupation-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 2vw!important;
+        font-style: normal !important;
+    }
+
+    .form-que-tab{
+        font-size: 2vw !important;
+        font-weight: 600 !important;
+    }
+    .su2-signup-card-tab{
+        width: 45% !important;
+        margin-right: 1rem !important;
+    }
+    .su2-sub-text-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 1.9vw!important;
+        font-style: normal !important;
+    }
+    .arrow-tab{
+        width: 9% !important;
+        height: 4vh !important;
+        margin-top: -0.1rem !important;
+    }
+    .su2-sub-text-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 3.2vw!important;
+        font-style: normal !important;
+    }
+
+
+ }
+
+
+/* MOBILE */
+  @media (max-width: 576px){
+
+    .signin-desktop{
+        display: none;
+    }
+    .signup2-tab{
+    display: none;
+    }
+
+    #occupationmob{
+        background: transparent !important;
+        border: none !important;
+        border-bottom: 1px solid #000000 !important;
+        outline:none !important;
+        box-shadow: none !important;
+        width: 80% !important;
+      }
+      .occupation-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 4vw!important;
+        font-style: normal !important;
+    }
+    .form-que-mob{
+        font-size: 3.7vw !important;
+        font-weight: 600 !important;
+    }
+    .arrow-mob{
+        width: 8% !important;
+        height: 5vh !important;
+        margin-top: -0.1rem !important;
+    }
+    .form-que-mob{
+        font-size: 3.5vw !important;
+        font-weight: 600 !important;
+    }
+  }

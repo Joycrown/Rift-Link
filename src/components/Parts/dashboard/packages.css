@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('//db.onlinewebfonts.com/c/b2215378fb1b991865ced500401f5282?family=SunsetSerial-Bold');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-dash{
+    width: 60% !important;
+}
+.dash-link{
+    /* padding-right: 4rem !important; */
+}
+.dashicon{
+    width: 100% !important;
+    /* height: 3vh !important; */
+}
+.dashicon-1{
+    width: 19% !important;
+    height: 3vh !important;
+    /* padding-right: 2rem !important; */
+}
+.dashlink{
+    /* padding-top: 0rem !important; */
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.4vw;
+    font-style: normal;
+}
+.dashlink-1{
+    padding-top: 0rem !important;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.3vw;
+    font-style: normal;
+    /* padding-left: 1.5rem !important; */
+}
+.pack-head{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-style: normal;
+}
+.pack-subhead{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2vw;
+    font-style: normal;
+}
+.pack-text{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 2vw;
+    font-style: normal;
+    color: rgb(6, 14, 83);
+    
+}
+.pack-text-1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2vw;
+    font-style: normal;
+}
+.pack-subtext{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.3vw;
+    font-style: normal;
+}
+.cards{
+    margin-left: 4rem !important;
+   
+}
+.dash-card{
+    width: 100% !important;
+    height: 40vh;
+    background: #00308733 !important;
+}
+.dash-card-2{
+    width: 100% !important;
+    height: 40vh;
+    background: #EFE4334D;
+}
+.subdash-card{
+    width: 80% !important;
+    background: #ffff !important;
+    height: 30vh !important;
+    border-radius: 5%!important;
+    border: none !important;
+    border: 1px solid #000000 !important;
+}
+.dash-mobile{
+    display: none;
+}
+
+
+@media (max-width: 768px){
+
+    .dashicon-tab{
+        width: 110% !important;
+        /* height: 3vh !important; */
+    }
+    .dashlink-tab{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 2.5vw;
+        font-style: normal;
+    }
+    .dashlink-tab-1{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 2.5vw;
+        font-style: normal;
+        padding-right: 2rem !important;
+    }
+    .pack-head-tab{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 4vw;
+        font-style: normal;
+    }
+    .pack-subhead-tab{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 3vw;
+        font-style: normal;
+    }
+    .bronze-tab{
+        padding-top: 5rem !important;
+        margin-left: -1.5rem !important;
+    }
+    .pack-text-tab{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 3.5vw;
+        font-style: normal;
+        color: rgb(6, 14, 83);
+        /* margin-left: 5rem !important; */
+    }
+    .pack-subtext-tab{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 2vw;
+        font-style: normal;
+    }
+    .pack-text-1-tab{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 4vw;
+        font-style: normal;
+    }
+    .cards-tab{
+        margin-left: 0rem !important;
+    }
+    .subdash-card-tab{
+        width: 90% !important;
+        background: #ffff !important;
+        /* height: 25vh !important; */
+        border-radius: 5%!important;
+        border: none !important;
+        border: 1px solid #000000 !important;
+    }
+    .dash-desktop{
+        display: block;
+    }
+    .dash-mobile{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+
+    .dash-desktop{
+        display: none;
+    }
+    .dash-mobile{
+        display: block;
+    }
+    
+    .logo-dash-mob{
+        width: 40% !important;
+    }
+    .dashicon-mob{
+        width: 100% !important;
+        /* height: 3vh !important; */
+    }
+    .dashlink-mob{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.2vw;
+        font-style: normal;
+    }
+    .dashlink-mob-1{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.2vw;
+        font-style: normal;
+        padding-right: 3rem !important;
+    }
+    .dashlink-mob-2{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.2vw;
+        font-style: normal;
+        padding-right: 2rem !important;
+    }
+    .dashlink-mob-3{
+        /* padding-top: 0rem !important; */
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.2vw;
+        font-style: normal;
+        padding-right: 4rem !important;
+        padding-top: 1.2rem !important
+    }
+    .dashicon-mob-2{
+        width: 100% !important;
+        padding-left: 3rem !important;
+    }
+    .pack-head-mob{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 6vw;
+        font-style: normal;
+    }
+    .pack-subhead-mob{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 4vw;
+        font-style: normal;
+    }
+    .bronze-mob{
+        /* padding-top: 5rem !important; */
+        /* margin-left: -2rem !important; */
+    }
+    .pack-text-mob{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 5vw;
+        font-style: normal;
+        color: rgb(6, 14, 83);
+        /* margin-left: 5rem !important; */
+    }
+    .pack-subtext-mob{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-style: normal;
+    }
+    .cards-mob{
+        margin-left: 0rem !important;
+    }
+    .subdash-card-mob{
+        width: 60% !important;
+        background: #ffff !important;
+        /* height: 25vh !important; */
+        border-radius: 5%!important;
+        border: none !important;
+        border: 1px solid #000000 !important;
+    }
+    .dash-card-mob{
+        width: 80% !important;
+        height: 50vh;
+        background: #00308733 !important;
+    }
+    .dash-card-2-mob{
+        width: 80% !important;
+        height: 50vh;
+        background: #EFE4334D !important;
+    }
+
+
+
+
+}

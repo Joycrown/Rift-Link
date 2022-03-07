@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbg{
+    background-image: 
+  linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+}
+.bg-signin{
+    background-image: 
+  linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+}
+
+.wel-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 700!important;
+    font-size: 3vw!important;
+    font-style: normal !important;
+}
+.head-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 1.7vw!important;
+    font-style: normal !important;
+}
+.signin-move{
+    padding-top: 10rem !important;
+}
+.rounded{
+    border-radius: 25px !important;
+}
+.signin-card{
+    width: 30% !important;
+    margin-right: 10rem !important;
+    
+}
+.card-si{
+    background-color: #ffffff !important;
+    width: 100% !important;
+    border-radius: 20px;
+}
+.check-box{
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 1vw!important;
+    font-style: normal !important;
+}
+.check-box-1{
+    border: 0.2px solid black !important;
+}
+.sign-btn{
+    width: 75% !important;
+    background-color:  #009CDE !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 1.2vw!important;
+    font-style: normal !important;
+}
+.sub-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 1vw!important;
+    font-style: normal !important;
+}
+.sub-text-1{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 1vw!important;
+    font-style: normal !important;
+}
+#exampleInputEmail1{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 70% !important;
+}
+#exampleInputPassword1{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 70% !important;
+}
+.signin-tab{
+    display: none;
+}
+.signin-mobile{
+    display: none;
+}
+/* TABLET */
+@media (max-width: 768px){
+
+    .signin-tab{
+        display: block;
+        padding-top: 10rem;
+    }
+    .signin-mobile{
+        display: none;
+    }
+    .signin-move{
+        display: none;
+    }
+    .wel-text-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 5vw!important;
+        font-style: normal !important;
+    }
+    .signin-card-tab{
+        width: 50% !important;
+        margin-right: 4rem !important;
+    }
+    .head-text-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 3vw!important;
+        font-style: normal !important;
+    }
+    .check-box-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 500!important;
+        font-size: 2vw!important;
+        font-style: normal !important;
+    }
+    .check-box-1-tab{
+        border: 0.4px solid black !important;
+    }
+    .sign-btn-tab{
+        width: 80% !important;
+        background-color:  #009CDE !important;
+        font-family: 'Roboto'!important ;
+        font-weight: 500!important;
+        font-size: 1.9vw!important;
+        font-style: normal !important;
+    }
+    .sub-text-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 1.9vw!important;
+        font-style: normal !important;
+    }
+    .sub-text-1-tab{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 1.9vw!important;
+        font-style: normal !important;
+    }
+}
+    /* MOBILE */
+@media (max-width: 576px){
+
+
+    .signin-desktop{
+        display: none;
+    }
+    .signin-mobile{
+        display: block;
+    }
+    .signin-move-mob{
+        display: block;
+        padding-top: 3rem !important;
+    }
+    
+    .card-si-mob{
+        background-color: #ffffff !important;
+        width: 100% !important;
+        border-radius: 20px;
+    }
+    
+    .card-mobile{
+        background-color: #ffffff !important;
+        width: 90% !important;
+        border-radius: 20px;
+    }
+    
+    .wel-text-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 700!important;
+        font-size: 5vw!important;
+        font-style: normal !important;
+        padding-top: 6rem !important;
+    }
+    .head-text{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 1.7vw!important;
+        font-style: normal !important;
+    }
+    .check-box-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 3vw!important;
+        font-style: normal !important;
+    }
+    .sign-btn-mob{
+        width: 60% !important;
+        background-color:  #009CDE !important;
+        font-family: 'Roboto'!important ;
+        font-weight: 500!important;
+        font-size: 2.8vw!important;
+        font-style: normal !important;
+    }
+    .sub-text-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 400!important;
+        font-size: 3vw!important;
+        font-style: normal !important;
+    }
+    .sub-text-1-mob{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 3vw!important;
+        font-style: normal !important;
+    }
+}

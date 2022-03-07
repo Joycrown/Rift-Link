@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .su-wel-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 700!important;
+    font-size: 3vw!important;
+    font-style: normal !important;
+    padding-right: 10rem !important;
+}
+  .signup-card{
+    width: 30% !important;
+    margin-right: 10rem !important;
+    
+}
+  .su-head-text{
+    font-family: 'Roboto'!important ;
+    font-weight: 700!important;
+    font-size: 1.2vw!important;
+    font-style: normal !important;
+}
+.validation{
+  color: red !important;
+  font-family: 'Roboto'!important ;
+  font-weight: 400!important;
+  font-size: 1.1vw!important;
+  font-style: normal !important;
+
+}
+#firstName{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#lastName{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#mobileNo{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#cityInput{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#emailInput{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#passwordInput{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#country{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 85% !important;
+}
+#dateOfbirth{
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  outline:none !important;
+  box-shadow: none !important;
+  width: 75% !important;
+}
+.su-sub-text{
+  font-family: 'Roboto'!important ;
+  font-weight: 400!important;
+  font-size: 1.1vw!important;
+  font-style: normal !important;
+}
+.su3-sub-text{
+  font-family: 'Roboto'!important ;
+  font-weight: 400!important;
+  font-size: 0.5vw!important;
+  font-style: normal !important;
+}
+.country{
+  font-family: 'Roboto'!important ;
+  font-weight: 400!important;
+  font-size: 1vw!important;
+  font-style: normal !important;
+}
+.form-tab{
+  display: none;
+}
+.signin-desktop{
+  display: block;
+}
+.signup1-tab{
+  display: none;
+}
+  /* TABLET */
+@media (max-width: 768px){
+
+  .signin-desktop{
+    display: none;
+  }
+  .signup1-tab{
+    display: block;
+  }
+  .form-desktop{
+    display: none;
+  }
+  .form-tab{
+    display: block;
+  }
+  .su1-signup{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 99vw!important;
+    font-style: normal !important;
+  }
+  .su-wel-text-tab{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 4vw!important;
+    font-style: normal !important;
+    padding-right: 2rem !important;
+  }
+  .signup-card-tab{
+    width: 50% !important;
+    margin-right: 1rem !important;
+  }
+  .su-head-text-tab{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 2.2vw!important;
+    font-style: normal !important;
+    padding-top: 0rem !important;
+  }
+  .inputs{
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 2.5vw!important;
+    font-style: normal !important;
+  }
+  .inputs-tab{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 2.1vw!important;
+    font-style: normal !important;
+  }
+  .su-sub-text-tab{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 2.1vw!important;
+    font-style: normal !important;
+  }
+  #mobileNo-tab{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 85% !important;
+  }
+  .country-tab{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 1.9vw!important;
+    font-style: normal !important;
+  }
+  .validation-tab{
+    color: red !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 2.2vw!important;
+    font-style: normal !important
+  }
+}
+  /* MOBILE */
+  @media (max-width: 576px){
+
+  .signin-desktop{
+    display: none;
+  }
+  .signup1-tab{
+    display: none;
+  }
+
+  .signup-card-mob{
+    width: 85% !important;
+  }
+  .su-wel-text-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 7vw!important;
+    font-style: normal !important;
+    padding-top: 6rem !important;
+  }
+  .su2-wel-text-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 6vw!important;
+    font-style: normal !important;
+    padding-top: 6rem !important;
+  }
+  .su-head-text1-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 700!important;
+    font-size: 4vw!important;
+    font-style: normal !important;
+  }
+  .su-head-text-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 700!important;
+    font-size: 6vw!important;
+    font-style: normal !important;
+  }
+  .su2-head-text-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 600!important;
+    font-size: 4vw!important;
+    font-style: normal !important;
+  }
+  .su-sub-text-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 3.4vw!important;
+    font-style: normal !important;
+  }
+  #firstNamemob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #lastNamemob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #mobileNomob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #cityInputmob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #emailInputmob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #passwordInputmob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #countrymob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  #dateofbirthmob{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline:none !important;
+    box-shadow: none !important;
+    width: 95% !important;
+  }
+  .country-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 3.5vw!important;
+    font-style: normal !important;
+  }
+  .su-sign-btn-mob{
+    width: 80% !important;
+    background-color:  #009CDE !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 2.8vw!important;
+    font-style: normal !important;
+  }
+  .inputs-mob{
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 3.5vw!important;
+    font-style: normal !important;
+  }
+  .inputs-mob2{
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 3.5vw!important;
+    font-style: normal !important;
+  }
+  .validation-mob{
+    color: red !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 3.2vw!important;
+    font-style: normal !important
+  }
+
+
+
+
+
+
+}
+
+
+
+
