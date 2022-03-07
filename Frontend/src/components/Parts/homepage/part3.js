@@ -1,8 +1,8 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
-import icon from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 1863.png';
-import icon1 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 1860.png';
-import icon2 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 1858.png';
+import icon from '../../images/Frame 1863.png';
+import icon1 from '../../images/Frame 1860.png';
+import icon2 from '../../images/Frame 1858.png';
 
 
 

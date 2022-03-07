@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Asset 3@4x 1.png';
+import logo from '../../images/Asset 3@4x 1.png';
 
 
 
