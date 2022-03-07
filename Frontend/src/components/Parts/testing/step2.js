@@ -1,7 +1,7 @@
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import arrow from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/arrow-down-circle.png'
+import arrow from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/arrow-down-circle.png'
 import Navbar from '../signupPage/navbar'
 import '../signupPage2/signuppage2.css'
 import '../signupPage/signup.css'

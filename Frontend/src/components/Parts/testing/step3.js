@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../signupPage/navbar';
 import {useNavigate} from 'react-router-dom';
-import handspoint from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Hands Point.png'
+import handspoint from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Hands Point.png'
 import './signup3.css'
 
 

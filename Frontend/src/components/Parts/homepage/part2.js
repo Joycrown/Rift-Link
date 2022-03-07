@@ -1,14 +1,14 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
-import img1 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/unsplash_5DJ0VvLRSFE.png';
-import img2 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/unsplash_GzumspFznSE.png';
-import img3 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/unsplash_46oLPhFNof8.png';
-import img4 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/unsplash_jJFrkJP_-RA.png';
-import icon from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Frame 10.png';
-import icon1 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Frame 11.png';
-import icon2 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Frame 12.png';
-import icon3 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Frame 13.png';
-import icon4 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Frame 14.png';
+import img1 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/unsplash_5DJ0VvLRSFE.png';
+import img2 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/unsplash_GzumspFznSE.png';
+import img3 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/unsplash_46oLPhFNof8.png';
+import img4 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/unsplash_jJFrkJP_-RA.png';
+import icon from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 10.png';
+import icon1 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 11.png';
+import icon2 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 12.png';
+import icon3 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 13.png';
+import icon4 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Frame 14.png';
 
 
 

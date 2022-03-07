@@ -1,8 +1,8 @@
 import React from "react";
 import Sidebar from "react-sidebar";
 import SidebarContent from "./sidebarcontent";
-import notify from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/bell.png'
-import carbon from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/carbon_add-filled.png'
+import notify from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/bell.png'
+import carbon from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/carbon_add-filled.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './packages.css';

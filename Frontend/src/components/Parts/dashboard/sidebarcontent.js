@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './dashboard.css';
-import dashicon1 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Vector (3).png'
-import dashicon2 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Vector (1).png'
-import dashicon3 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Group 1.png'
-import dashicon4 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Vector (2).png'
-import dashicon5 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Group 3.png'
-import dashicon6 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Group 4.png'
-import logo from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Asset 3@4x 1.png'
+import dashicon1 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Vector (3).png'
+import dashicon2 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Vector (1).png'
+import dashicon3 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Group 1.png'
+import dashicon4 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Vector (2).png'
+import dashicon5 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Group 3.png'
+import dashicon6 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Group 4.png'
+import logo from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Asset 3@4x 1.png'
 
 const styles = {
   sidebar: {

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Asset 3@4x 1.png';
-import logo2 from '/Users/Awesomejoy/web/Rift-platform/Frontend/src/components/images/Asset 3@4x 2.png';
+import logo from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Asset 3@4x 1.png';
+import logo2 from '/Users/Awesomejoy/web/Rift-platform/RiftLink/Frontend/src/components/images/Asset 3@4x 2.png';
 import { FaFacebookF } from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
