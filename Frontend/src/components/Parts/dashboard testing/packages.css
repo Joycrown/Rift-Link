@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import url('//db.onlinewebfonts.com/c/b2215378fb1b991865ced500401f5282?family=SunsetSerial-Bold');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
@@ -11,18 +11,20 @@
 .logo-dash{
     width: 60% !important;
 }
-
+.dash-link{
+    /* padding-right: 4rem !important; */
+}
 .dashicon{
     width: 100% !important;
-    
+    /* height: 3vh !important; */
 }
 .dashicon-1{
     width: 19% !important;
     height: 3vh !important;
-   
+    /* padding-right: 2rem !important; */
 }
 .dashlink{
-    
+    /* padding-top: 0rem !important; */
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1.4vw;
@@ -34,39 +36,41 @@
     font-weight: 400;
     font-size: 1.3vw;
     font-style: normal;
-   
+    /* padding-left: 1.5rem !important; */
 }
 .pack-head{
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-style: normal;
 }
 .pack-subhead{
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-style: normal;
 }
 .pack-text{
     font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 2vw;
+    font-weight: 500;
+    font-size: 1.8vw;
     font-style: normal;
     color: rgb(6, 14, 83);
     
 }
 .pack-text-1{
     font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 2vw;
+    font-weight: 400;
+    font-size: 1.7vw;
     font-style: normal;
+    padding-top: 1rem !important;
 }
 .pack-subtext{
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-style: normal;
+    color: rgba(29, 29, 29, 0.8) !important;
 }
 .cards{
     margin-left: 4rem !important;
@@ -76,21 +80,39 @@
     width: 100% !important;
     height: 40vh;
     background: #00308733 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px !important;
 }
 .dash-card-2{
     width: 100% !important;
-    height: 40vh;
-    background: #EFE4334D;
+    height: 40vh !important;
+    background: #EFE4334D !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px !important;
+
+}
+.dash-card-3{
+    width: 100% !important;
+    height: 40vh !important;
+    background: rgba(4, 255, 150, 0.2) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px !important;
+
 }
 .subdash-card{
     width: 80% !important;
     background: #ffff !important;
     height: 30vh !important;
-    border-radius: 5%!important;
-    border: none !important;
-    border: 1px solid #000000 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
 }
 .dash-mobile{
+    display: none;
+}
+.dash-desktop{
+    display: block;
+}
+.dash-tablet{
     display: none;
 }
 
@@ -99,32 +121,32 @@
 
     .dashicon-tab{
         width: 200% !important;
-       
+        /* height: 3vh !important; */
     }
     .logo-dash-tab{
         width: 30% !important;
     }
-    .dashlink-tab{
-        
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 2.5vw;
-        font-style: normal;
-    }
-    .dashlink-tab-1{
-        
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 2.5vw;
-        font-style: normal;
-        padding-right: 2rem !important;
+    .dash-card-tab{
+        width: 690px !important;
+        height: 30vh;
+        background: #00308733 !important;
+        /* padding-right: 3rem !important; */
+        margin-right: 2rem !important;
     }
     .pack-head-tab{
         font-family: 'Roboto';
         font-weight: 500;
-        font-size: 4vw;
+        font-size: 6vw;
         font-style: normal;
     }
+    .subhead-tab{
+        font-family: 'Roboto';  
+        font-weight: 500;
+        font-size: 6vw;
+        font-style: normal;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+      }
     .pack-subhead-tab{
         font-family: 'Roboto';
         font-weight: 500;
@@ -137,16 +159,16 @@
     }
     .pack-text-tab{
         font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 3.5vw;
+        font-weight: 600;
+        font-size: 4vw;
         font-style: normal;
         color: rgb(6, 14, 83);
-       
+        /* margin-left: 5rem !important; */
     }
     .pack-subtext-tab{
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 2vw;
+        font-size: 3.3vw;
         font-style: normal;
     }
     .pack-text-1-tab{
@@ -154,6 +176,7 @@
         font-weight: 500;
         font-size: 4vw;
         font-style: normal;
+        padding-left: 1rem !important;
     }
     .cards-tab{
         margin-left: 0rem !important;
@@ -161,16 +184,18 @@
     .subdash-card-tab{
         width: 90% !important;
         background: #ffff !important;
-        
-        border-radius: 5%!important;
-        border: none !important;
-        border: 1px solid #000000 !important;
+        height: 25vh !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
     }
     .dash-desktop{
-        display: block;
+        display: none;
     }
     .dash-mobile{
         display: none;
+    }
+    .dash-tablet{
+        display: block;
     }
 }
 @media (max-width: 576px){
@@ -181,76 +206,35 @@
     .dash-mobile{
         display: block;
     }
-    
-    .logo-dash-mob{
-        width: 40% !important;
-    }
-    .dashicon-mob{
-        width: 75% !important;
-        
-    }
-   
-    .dashlink-mob{
-        
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 3.2vw;
-        font-style: normal;
-    }
-    .dashlink-mob-1{
-        
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 3.2vw;
-        font-style: normal;
-        padding-right: 3rem !important;
-    }
-    .dashlink-mob-2{
-        
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 3.2vw;
-        font-style: normal;
-        padding-right: 2rem !important;
-    }
-    .dashlink-mob-3{
-     
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 3.2vw;
-        font-style: normal;
-        padding-right: 4rem !important;
-        padding-top: 1.2rem !important
-    }
-    .dashicon-mob-2{
-        width: 100% !important;
-        padding-left: 3rem !important;
+    .dash-tablet{
+        display: none;
     }
     .pack-head-mob{
         font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 6vw;
+        font-weight: 500;
+        font-size: 5vw;
         font-style: normal;
+        padding-left: 2rem !important;
     }
     .pack-subhead-mob{
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 4vw;
         font-style: normal;
+        padding-left: 2rem !important;
     }
-    
     .pack-text-mob{
         font-family: 'Roboto';
         font-weight: 500;
-        font-size: 5vw;
+        font-size: 4vw;
         font-style: normal;
         color: rgb(6, 14, 83);
-        
+        /* margin-left: 5rem !important; */
     }
     .pack-subtext-mob{
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 3.5vw;
+        font-size: 3vw;
         font-style: normal;
     }
     .cards-mob{
@@ -259,23 +243,33 @@
     .subdash-card-mob{
         width: 60% !important;
         background: #ffff !important;
-        
-        border-radius: 5%!important;
-        border: none !important;
-        border: 1px solid #000000 !important;
+        /* height: 25vh !important; */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
     }
     .dash-card-mob{
         width: 80% !important;
         height: 50vh;
         background: #00308733 !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+        border-radius: 8px !important;
     }
     .dash-card-2-mob{
         width: 80% !important;
         height: 50vh;
         background: #EFE4334D !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+        border-radius: 8px !important;
+    }
+    .dash-card-3-mob{
+        width: 80% !important;
+        height: 50vh;;
+        background: rgba(4, 255, 150, 0.2) !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+        border-radius: 8px !important;
     }
 
 
 
 
-} */
+}

@@ -32,7 +32,7 @@ const First = () => {
             if (res.status===200){
                 console.log(user.access_token)
                 localStorage.setItem('token', user.access_token)
-                navigate('/dashboard')
+                navigate('/dash')
              
             }else if(res.status ===400){
                 Swal.fire({
@@ -114,11 +114,13 @@ const First = () => {
                                                 </div>
                                                 <div className = 'text-center pt-5'>
                                                     <button type="submit" class="btn sign-btn sign-btn-tab btn-primary">SIGN IN</button>
-                                                    <h5 className = 'sub-text sub-text-tab pt-3'>Forgot Password?</h5>
+                                                </div>
+                                                <div className = 'text-center pt-1'>
+                                                    <Link className = 'fp-link sub-text sub-text-tab pt-3'to ={'/forgot_password'}>Forgot Password?</Link>
                                                 </div>
                                                 <div className = 'd-flex justify-content-center'>
                                                     <h5 className = 'sub-text sub-text-tab pt-3'>New to Rift Link?</h5>
-                                                    <Link className = 'sub-text-1 sub-text-1-tab pt-3' to = {'/signup'}>SIGN UP</Link>
+                                                    <Link className = 'signup-link sub-text-1 sub-text-1-tab pt-3' to = {'/signup'}>SIGN UP</Link>
                                                     
                                                 </div>
                                             
@@ -139,8 +141,8 @@ const First = () => {
                     </div>
                     <div className = 'd-flex justify-content-center'>
                         <div className = 'card-mobile'>
-                            <div className = 'card-body card-si-mob'>
-                                <h2 className = 'head-text-mob'>Sign In</h2>
+                            <div className = 'card-body card-si-mob '>
+                                <h2 className = 'head-text-mob1'>Sign In</h2>
                             </div>
                             <Formik initialValues={initialValues} onSubmit= {handleSubmit} validationSchema={validationSchema} >
                              {(props) =>(
@@ -179,7 +181,7 @@ const First = () => {
                                 </div>
                                 <div className = 'd-flex justify-content-center pb-2'>
                                     <h5 className = 'sub-text-mob pt-3'>New to Rift Link?</h5>
-                                    <Link className = 'sub-text-1 sub-text-1-tab pt-3' to = {'/signup'}>SIGN UP</Link>
+                                    <Link className = 'sub-text-1 sub-text-1-tab sub-text-1-mob pt-3' to = {'/signup'}>SIGN UP</Link>
                                 </div>
                                  </Form>
                              )}

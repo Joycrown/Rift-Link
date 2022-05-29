@@ -10,4 +10,12 @@ module.exports = function(app) {
             changeOrigin: true
         })
     )
+
+    app.use(
+        proxy("/users/current/accounts",{
+            target: "https://mt-provisioning-api-v1.agiliumtrade.agiliumtrade.ai",
+            // secure: false,
+            changeOrigin: true
+        })
+    )
 }

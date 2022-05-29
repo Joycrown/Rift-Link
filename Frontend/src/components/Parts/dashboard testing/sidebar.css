@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.sidebar{
+    background: linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+    width: 20% !important;
+    height: 100vh !important;
+}
+/* .logo-sidebar{
+    width: 50% !important;
+} */
+
+a.sidebarlink{
+    color: rgb(65, 71, 90) !important;
+    text-decoration: none;
+}
+.sidebarlink{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5vw;
+    font-style: normal;
+}
+.sidebar-tab{
+    display: none;
+}
+
+
+@media (max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+    .sidebarlinks-tab{
+        display: block;
+    }
+    .sidebarlinks-mob{
+        display: none;
+    }
+    .toggle-mob{
+        display: none;
+    }
+    .sidebar-navbar-mob{
+        display: none;
+        margin-top: -1rem !important;
+    }
+    .sidebar-tab{
+        display: block;
+        background: linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+        width: 100% !important;
+        height: 8vh !important;
+    }
+    .sbar{
+        background: linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    .sidebarlink-tab{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-style: normal;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+   
+    .logo-side-mob{
+        width: 30% !important;
+    }
+    
+    
+    
+    .sbar-mob{
+        background: linear-gradient(90deg, #003087 0%, #007DB2 90.62%) !important;
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    .offcanvas-mob{
+        width: 50% !important;
+    }
+    .sidebarlink-mob{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 3.8vw;
+        font-style: normal;
+    }
+    .sidebarlink-mob-invite{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size:4vw;
+        font-style: normal;
+        padding-right: 0.5rem !important;
+    }
+}

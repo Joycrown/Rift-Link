@@ -117,79 +117,79 @@ function Two(){
                     <div className = 'info pt-5'>
                         <h1 className = 'info-head text-center'>What is Rift Link?</h1>
                     </div>
-                    <div className = 'info container d-flex justify-content-evenly'>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon} alt='' className = 'icon icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <p className = 'info-text'><b>Rift Link</b> is a cloud-based, third-party<br/> copytrading 
-                                platform developed to<br/> help you earn automated and <br/>consistent 
-                                income on the forex<br/> market.</p>
+                    <div className = 'info container d-flex justify-content-between'>
+                        <div className = ''>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon} alt='' className = 'icon icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = 'pe-5'>
+                                    <p className = 'info-text p-2 bd-highlight'><b>Rift Link</b> is a cloud-based, third-party <br/>copytrading 
+                                    platform developed to<br/> help you earn automated and <br/>consistent 
+                                    income on the forex<br/> market.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon1} alt='' className = 'icon icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <h3 className = 'info-text'><b>High Accuracy Trading</b></h3>
-                                <p className = 'info-text'>
-                                    Daily accurate trades executed by AI<br/> powered trading bots and expert<br/> analysts. 
-                                    Eliminating emotion-based <br/>trading.</p>
+                        <div className = ''>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon1} alt='' className = 'icon icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = 'pe-5'>
+                                    <h3 className = 'info-text p-2 bd-highlight'><b>High Accuracy Trading</b></h3>
+                                    <p className = 'info-text p-2 bd-highlight'>
+                                        Daily accurate trades executed by AI<br/> powered trading bots and expert<br/> analysts. 
+                                        Eliminating emotion-based <br/>trading.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     {/* 2 */}
-                    <div className = 'info container d-flex justify-content-evenly'>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon2} alt='' className = 'icon icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <h3 className = 'info-text'><b>Powerful Copytrading Software</b></h3>
-                                <p className = 'info-text'>
-                                    Lightening fast copy speed with low <br/>latency, sophiscated risk management protocol
-                                </p>
+                    <div className = 'info container d-flex justify-content-between'>
+                        <div className = ''>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon2} alt='' className = 'icon icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = 'pe-5'>
+                                    <h3 className = 'info-text p-2 bd-highlight'><b>Powerful Copytrading Software</b></h3>
+                                    <p className = 'info-text p-2 bd-highlight'>
+                                        Lightening fast copy speed with low <br/>latency, sophiscated risk management <br/> protocol
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon3} alt='' className = 'icon icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <h3 className = 'info-text'><b>Metatrader 4&5 Compatible</b></h3>
-                                <p className = 'info-text'>
-                                    Rift Link is compatible with any <br/> broker all over the 
-                                    world as long as <br/> they offer Metatrader trading<br/> accounts.
-                                    </p>
+                        <div className = 'pe-3'>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon3} alt='' className = 'icon icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = 'pe-5'>
+                                    <h3 className = 'info-text p-2 bd-highlight'><b>Metatrader 4&5 Compatible</b></h3>
+                                    <p className = 'info-text p-2 bd-highlight'>
+                                        Rift Link is compatible with any <br/> broker all over the 
+                                        world as long as <br/> they offer Metatrader trading<br/> accounts.
+                                        </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     {/* 3 */}
-                    <div className = 'info container d-flex justify-content-evenly'>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon4} alt='' className = 'icon icon-tab icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <h3 className = 'info-text'><b>Full Capital Control</b></h3>   
-                                <p className = 'info-text'>
-                                    Users maintain full control over their <br/>capital.<br/>
-                                    Rift Link has no access to<br/> deposit or withdraw on user<br/> account.
-                                </p>
+                    <div className = 'info container d-flex justify-content-around'>
+                        <div className = 'pe-5'>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon4} alt='' className = 'icon-4 icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = ''>
+                                    <h3 className = 'info-text p-2 bd-highlight'><b>Full Capital Control</b></h3>   
+                                    <p className = 'info-text p-2 bd-highlight'>
+                                        Users maintain full control over their capital.
+                                        Rift Link has no access to deposit or withdraw on user account.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className = 'd-flex justify-content-center'>
-                            <div className = ''>
-                                <img src = {icon4} alt='' className = 'icon icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                                <h3 className = 'info-text'><b>Full Capital Control</b></h3>
-                                <p className = 'info-text'>
-                                    Users maintain full control over their<br/> capital.<br/>
-                                    Rift Link has no access to <br/>deposit or withdraw on user<br/> account.
-                                </p>
+                        <div className = ''>
+                            <div className = 'd-flex bd-highlight'>
+                                <img src = {icon1} alt='' className = 'ps-5 icon icon-mob p-2 align-self-start bd-highlight'></img>
+                                <div className = ''>
+                                    <h3 className = 'info-text p-2 bd-highlight'><b>Zero Worries</b></h3>
+                                    <p className = 'info-text p-2 bd-highlight'>
+                                    With Rift Link,you can set your<br/> income generation to autopilot and spend more time doing the things
+                                    you love(job/business,family,travel,hobbies).
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ function Two(){
                                 <div className = ''>
                                     <h3 className = 'info-text-tab'><b>Powerful Copytrading Software</b></h3>
                                     <p className = 'info-text-tab'>
-                                        Lightening fast copy <br/>speed with low latency, sophiscated risk management protocol
+                                        Lightening fast copy <br/>speed with low latency,<br/> sophiscated risk <br/>management protocol
                                     </p>
                                 </div>
                             </div>
@@ -252,28 +252,28 @@ function Two(){
                             </div>
                         </div>
                         {/* 3 */}
-                        <div className = 'info container d-flex justify-content-evenly'>
+                        <div className = 'info container d-flex justify-content-between ps-2'>
                             <div className = 'd-flex justify-content-center'>
                                 <div className = ''>
-                                    <img src = {icon4} alt='' className = 'icon icon-tab icon-mob'></img>
+                                    <img src = {icon4} alt='' className = ' icon-tab-4'></img>
                                 </div>
-                                <div className = ''>
+                                <div className = 'ps-3'>
                                     <h3 className = 'info-text-tab'><b>Full Capital Control</b></h3>   
                                     <p className = 'info-text-tab'>
-                                        Users maintain full control<br/> over their capital.<br/>
+                                        Users maintain full control over their capital.<br/>
                                         Rift Link has no access<br/> to deposit or withdraw on user account.
                                     </p>
                                 </div>
                             </div>
-                            <div className = 'd-flex justify-content-center'>
-                                <div className = ''>
-                                    <img src = {icon4} alt='' className = 'icon icon-tab icon-mob'></img>
+                            <div className = ''>
+                                <div className = 'd-flex bd-highlight'>
+                                    <img src = {icon1} alt='' className = 'icon-tab p-2 align-self-start bd-highlight'></img>
                                 </div>
                                 <div className = ''>
-                                    <h3 className = 'info-text-tab'><b>Full Capital Control</b></h3>
+                                    <h3 className = 'info-text-tab'><b>Zero Worries</b></h3>
                                     <p className = 'info-text-tab'>
-                                        Users maintain full control<br/> over their capital.
-                                        Rift Link has no access to <br/>deposit or withdraw on user<br/> account.
+                                    With Rift Link,you can set your income generation to autopilot<br/> and spend more time doing the things
+                                    you love<br/>(job/business,family,travel,hobbies).
                                     </p>
                                 </div>
                             </div>
@@ -329,18 +329,6 @@ function Two(){
                                 <p className = 'info-text-mob'>
                                     Rift Link is compatible with any broker all over the 
                                     world as long as they offer <br/>Metatrader trading accounts.
-                                    </p>
-                            </div>
-                        </div>
-                        <div className = 'd-flex pt-3'>
-                            <div className = ''>
-                                <img src = {icon4} alt='' className = 'icon-tab icon-mob'></img>
-                            </div>
-                            <div className = ''>
-                            <h3 className = 'info-text-mob'><b>Full Capital Control</b></h3>
-                                <p className = 'info-text-mob'>
-                                    Users maintain full control over their capital.
-                                    Rift Link has no access to<br/> deposit or withdraw on user<br/> account.
                                 </p>
                             </div>
                         </div>
@@ -352,12 +340,23 @@ function Two(){
                                 <h3 className = 'info-text-mob'><b>Full Capital Control</b></h3>
                                 <p className = 'info-text-mob'>
                                     Users maintain full control over their capital.
-                                    Rift Link has no access to <br/>deposit or withdraw on user<br/> account.
+                                    Rift Link has no access to<br/> deposit or withdraw on user<br/> account.
                                 </p>
                             </div>
                         </div>
+                        <div className = ' pt-3 ps-3'>
+                            <div className = ''>
+                                <img src = {icon1} alt='' className = 'icon-tab icon-mob-1 pe-2'></img>
+                                <div className = 'ps-4'>
+                                    <h3 className = 'info-text-mob'><b>Zero Worries</b></h3>
+                                    <p className = 'info-text-mob'>
+                                        With Rift Link,you can set your income generation to autopilot and spend more time doing the things
+                                        you love(job/business,family,travel,hobbies)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                
                 </div>
                 <div className = 'd-flex justify-content-center pt-5 pb-5'>
                     <button type="button" onClick={routeChange} class="sub-btn2 sub-btn2-tab sub-btn2-mob btn btn-info text-white text-center">START MY FREE TRAIL</button>

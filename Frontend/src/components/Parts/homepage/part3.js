@@ -21,16 +21,16 @@ function Three(){
                 </div>
                 <div className = 'container pt-2 pb-5'>
                     <div className = 'row'>
-                        <div className ='col-lg-4 col-md-4'>
+                        <div className ='col-lg-4 col-md-4 pb-5 space-mob'>
                             <div className ='text-center text-white'>
-                                <img src = {icon} alt ='icon' className = 'pb-2 how-icon-mob'/>
+                                <img src = {icon} alt ='icon' className = 'pb-1 how-icon-mob'/>
                                 <h4 className = 'how-subtext how-subtext-tab how-subtext-mob text-center'>Step One</h4>
                                 <h4 className = 'how-subtext how-subtext- how-subtext-mob'>
                                 Create and fund a Metatrader<br/> 4 or 5 
                                 account with a <br/>minimum capital of $100</h4>
                             </div>
                         </div>
-                        <div className ='col-lg-4 col-md-4'>
+                        <div className ='col-lg-4 col-md-4 space-mob'>
                             <div className ='text-center text-white'>
                                 <img src = {icon1} alt ='icon' className = 'pb-2 how-icon-mob'/>
                                 <h4 className = 'how-subtext how-subtext-tab how-subtext-mob text-center'>Step Two</h4>

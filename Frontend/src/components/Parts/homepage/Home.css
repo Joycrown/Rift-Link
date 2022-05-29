@@ -28,7 +28,7 @@
 }
 .heading{
   padding-top: 12rem;
-  padding-left: 15rem;
+  padding-left: 15rem; 
 }
 .text-heading{
   font-family: 'Roboto';
@@ -48,6 +48,8 @@
   width: 28% !important;
   height: 8vh !important;
   background: #009CDE !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 
 }
 .background-head-mob{
@@ -92,6 +94,8 @@
   font-style: normal !important;
   height: 8vh !important;
   background: #009CDE !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 
 }
 .info{
@@ -99,6 +103,9 @@
 }
 .icon{
   width: auto !important;
+}
+.icon-4{
+  width: 20% !important;
 }
 .info-head{
   font-family: 'Roboto' !important;
@@ -255,8 +262,7 @@
       font-family: 'Roboto'!important ;
       font-weight: 600 !important;
       font-size: 7vw !important;
-      /* padding-top: 5rem !important; */
-      /* padding-right: 5rem !important; */
+      
     }
     .sub-text-tab{
       font-family: 'Roboto'!important ;
@@ -271,6 +277,8 @@
       width: 40% !important;
       height: 8vh !important;
       background: #009CDE !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
     }
     /* part 2 */
     .section-2H-mob{
@@ -313,6 +321,8 @@
       font-style: normal !important;
       height: 8vh !important;
       background: #009CDE !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
 
     }
     .info-head-tab{
@@ -329,6 +339,9 @@
     }
     .icon-tab{
       width: auto !important;
+    }
+    .icon-tab-4{
+      width: 120% !important;
     }
     /* part 3 */
     .how-tab{
@@ -473,13 +486,15 @@
     font-family: 'Roboto' ;
     font-weight: 600;
     font-size: 12vw;
-    padding-top: 4rem !important;
+    padding-top: 2rem !important;
+    padding-left: 1rem !important;
   }
   .sub-text-mob{
     font-family: 'Roboto' ;
     font-weight: 400;
     font-size: 5vw;
     font-style: normal;
+    padding-left: 1rem !important;
   }
   .sub-btn-mob{
     font-family: 'Roboto';
@@ -488,6 +503,9 @@
     width: 60% !important;
     height: 8vh !important;
     background: #009CDE !important;
+    margin-left: 1rem !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;   
 
   }
   /* part 2 */
@@ -555,6 +573,9 @@
   .icon-mob{
     width: 100% !important;
   }
+  .icon-mob-1{
+    width: 200% !important;
+  }
   .length{
     width: 100% !important;
   }
@@ -576,7 +597,10 @@
       font-weight: 500!important;
       font-size: 3.5vw!important;
       font-style: normal !important;
-      padding-bottom: 1rem;
+      /* padding-bottom: 1rem; */
+    }
+    .space-mob{
+      padding-bottom: 3rem!important;
     }
     .sub-section-head-text-mob{
       font-family: 'Roboto'!important ;
@@ -650,25 +674,25 @@
     .ft-head-link-mob{
       font-family: 'Roboto'!important ;
       font-weight: 500!important;
-      font-size: 2.7vw!important;
+      font-size: 2.9vw!important;
       font-style: normal !important;
     }
     .ft-links-mob{
       font-family: 'Roboto'!important ;
       font-weight: 400!important;
-      font-size: 2.1vw!important;
+      font-size: 2.6vw!important;
       font-style: normal !important;
     }
     .ft-text1-mob{
       font-family: 'Roboto'!important ;
       font-weight: 500!important;
-      font-size: 2.2vw!important;
+      font-size: 2.5vw!important;
       font-style: normal !important;
     }
     .ft-text2-mob{
       font-family: 'Roboto'!important ;
       font-weight: 400!important;
-      font-size: 2.3vw!important;
+      font-size: 2.5vw!important;
       font-style: normal !important;
     }
     .social-links-mob{

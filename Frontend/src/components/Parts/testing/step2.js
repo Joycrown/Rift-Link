@@ -23,6 +23,8 @@ const stepTwoValidationSchema = Yup.object({
     const handleSubmit = (values) => {
       props.next(values,true);
     };
+
+    
   
     return (
       <section className = ''>
@@ -82,22 +84,19 @@ const stepTwoValidationSchema = Yup.object({
                                                  component="div"
                                                  className="validation" />
                                               </div>
-
                                               <div class="mb-5">
                                               <label className = 'form-que form-que-tab pb-3' >Do you have any trading experience? </label>
                                                 <Field as="select" name="experience"
                                                 id= 'occupation'>
                                                 <option value="">Experience *</option>
-                                                  <option>Yes: Less than 5years</option>
-                                                  <option>Yes: More than 5years</option>
-                                                  <option>No experience</option>
+                                                <option>Yes: Less than 5years</option>
+                                                <option>Yes: More than 5years</option>
+                                                <option>No experience</option>
                                                 </Field>
                                                 <ErrorMessage name="experience"
                                                 component="div"
                                                 className="validation"  />
                                               </div>
-
-
                                               <div class="mb-5">
                                               <label className = 'form-que form-que-tab pb-3' >Do you have a Metatrader account? </label>
                                               <Field as="select" name="account"
@@ -121,18 +120,18 @@ const stepTwoValidationSchema = Yup.object({
                                                 component="div"
                                                 className="validation"
                                                 />
-                                            </div> 
-                                                    <div className = 'd-flex justify-content-center '>
-                                                        <h5 className = 'su2-sub-text su2-sub-text-tab pt-3'>By  signing up, you agree to our “Terms and Conditions”, 
-                                                        and “Privacy policy”.</h5>
-                                                    </div>
-                                                    <div className = 'text-center pt-3 pb-3'>
-                                                        <button type="submit"class="btn sign-btn sign-btn-tab btn-primary">SUBMIT</button>
-                                                    </div>
-                                                    <div className = 'd-flex justify-content-center pb-5'>
-                                                        <img src = {arrow} alt='' className = 'text-center' onClick={() => props.prev(values)}></img>
-                                                        <h5 className = 'sub-text-1 sub-text-1-tab pt-1 ps-1'> GO BACK</h5>
-                                                    </div>
+                                              </div> 
+                                                <div className = 'd-flex justify-content-center '>
+                                                    <h5 className = 'su2-sub-text su2-sub-text-tab pt-3'>By  signing up, you agree to our “Terms and Conditions”, 
+                                                    and “Privacy policy”.</h5>
+                                                </div>
+                                                <div className = 'text-center pt-3 pb-3'>
+                                                    <button type="submit"class="btn sign-btn sign-btn-tab btn-primary">SUBMIT</button>
+                                                </div>
+                                                <div className = 'd-flex justify-content-center pb-5'>
+                                                    <img src = {arrow} alt='' className = 'text-center' onClick={() => props.prev(values)}></img>
+                                                    <h5 className = 'sub-text-1 sub-text-1-tab pt-1 ps-1'> GO BACK</h5>
+                                                </div>
                                               {/* <button type="submit">Submit</button> */}
                                             </Form>
                                           )}

@@ -22,7 +22,7 @@ function One(){
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav  nav-links nav-links-tab">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to = {'/'}>Home</Link>
+                            <Link className="nav-link nav-link-tab nav-link-mob text-white active" aria-current="page" to = {'/'}>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link nav-link-tab nav-link-mob text-white" to = {'/'}>Packages</Link>

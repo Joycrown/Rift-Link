@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('//db.onlinewebfonts.com/c/b2215378fb1b991865ced500401f5282?family=SunsetSerial-Bold');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dash-subhead{
+  font-family: 'Roboto'!important;
+  font-weight: 500 !important;
+  font-size: 2.0vw !important;
+  font-style: normal !important;
+}
+.contact-btn{
+  width: 100% !important;
+  background-color:  #009CDE !important;
+  font-family: 'Roboto'!important ;
+  font-weight: 500!important;
+  font-size: 1.2vw!important;
+  font-style: normal !important;
+}
+.card-dash{
+  background-color: white !important;
+  width: 250px !important;
+  color: white !important;
+  border-radius: 2%!important;
+  border: 1px solid #494949 !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+              0 6px 20px 0 rgba(0,0,0,0.19) !important
+}
+.card-body-dash{
+  background-color: white !important;
+  width: 100% !important;
+}
+.card-modal{
+  background-color: white !important;
+  width: 100% !important;
+}
+.card-body-modal{
+  background-color: white !important;
+  border-radius:18px 18px 0px 0px !important;
+}
+.modal-head{
+  width: 100% !important;
+  background-color: #003087 !important;
+  border-radius: 5px 5px 0px 0px!important;
+}
+.modal-head-text{
+  font-family: 'Roboto'!important;
+  font-weight: 500 !important;
+  font-size: 1.8vw !important;
+  font-style: normal !important;
+}
+.modal-close{
+  background-color: white !important;
+  color: white !important;
+}
+.p-modal-text{
+  font-family: 'Roboto'!important;
+  font-weight: 400 !important;
+  font-size: 1.3vw !important;
+  font-style: normal !important;
+}
+.acc-text{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1vw;
+  font-style: normal;
+}
+.validation{
+  color: red !important;
+  font-family: 'Roboto'!important ;
+  font-weight: 400!important;
+  font-size: 1.1vw!important;
+  font-style: normal !important;
+}
+.sign-btn-modal{
+  width: 50% !important;
+  background-color:  #009CDE !important;
+  font-family: 'Roboto'!important ;
+  font-weight: 500!important;
+  font-size: 1.2vw!important;
+  font-style: normal !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+              0 6px 20px 0 rgba(0,0,0,0.19) !important
+}
+.dash-mob{
+  display: none;
+}
+.modalapp{
+  display: none;
+ }
+
+
+
+@media (max-width: 768px){
+  .dash{
+    display: block;
+  }
+  .modalapp{
+    display: none;
+   }
+    .subhead-tab{
+      font-family: 'Roboto' !important;  
+      font-weight: 500 !important;
+      font-size: 3.3vw !important;
+      font-style: normal !important;
+    }
+    .contact-btn-tab{
+      width: 100% !important;
+      background-color:  #009CDE !important;
+      font-family: 'Roboto'!important ;
+      font-weight: 500!important;
+      font-size: 2.5vw!important;
+      font-style: normal !important;
+    }
+    .acc-text-tab{
+      font-family: 'Roboto'!important;
+      font-weight: 400 !important;
+      font-size: 3.2vw !important;
+      font-style: normal !important;
+    }
+    .acct-icon-tab{
+      width: 18% !important;
+    }
+    .modal-head-text-tab{
+      font-family: 'Roboto'!important;
+      font-weight: 500 !important;
+      font-size: 4vw !important;
+      font-style: normal !important;
+    }
+    .card-dash-tab{
+      background-color: white !important;
+      width: 310px !important;
+      color: white !important;
+      border-radius: 2%!important;
+      border: 1px solid #494949 !important;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                  0 6px 20px 0 rgba(0,0,0,0.19) !important
+    }
+    
+    .input-form-tab{
+      font-family: 'Roboto'!important;
+      font-weight: 400 !important;
+      font-size: 3vw !important;
+      font-style: normal !important;
+    }
+    .sign-btn-modal-tab{
+      width: 80% !important;
+      background-color:  #009CDE !important;
+      font-family: 'Roboto'!important ;
+      font-weight: 500!important;
+      font-size: 3.5vw!important;
+      font-style: normal !important;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                  0 6px 20px 0 rgba(0,0,0,0.19) !important
+    }
+    .validation-tab{
+      color: red !important;
+      font-family: 'Roboto'!important ;
+      font-weight: 400!important;
+      font-size: 3.2vw!important;
+      font-style: normal !important
+    }
+    .dash-mob{
+      display: none;
+    }
+  }
+
+
+
+
+
+@media (max-width: 576px){
+  .dash-mob{
+    display: block;
+  }
+  .dash{
+    display: none;
+  }
+  .modalapp{
+    display: block;
+   }
+  #exampleInputEmail1{
+    width: 85% !important;
+    font-family: 'Roboto'!important ;
+  }
+  #exampleInputPassword1{
+    width: 85% !important;
+    font-family: 'Roboto'!important ;
+  }
+  #exampleInputEmail1{
+    width: 85% !important;
+    font-family: 'Roboto'!important ;
+  }
+  #exampleInputEmail1{
+    width: 85% !important;
+    font-family: 'Roboto'!important ;
+  }
+  .contact-btn-mob{
+    width: 120% !important;
+    background-color:  #009CDE !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 400!important;
+    font-size: 3vw!important;
+    font-style: normal !important;
+  }
+  .modal-head-text-mob{
+    font-family: 'Roboto'!important;
+    font-weight: 500 !important;
+    font-size: 5.5vw !important;
+    font-style: normal !important;
+  }
+  .modal-subhead-text-mob{
+    font-family: 'Roboto'!important;
+    font-weight: 400 !important;
+    font-size: 2.6vw !important;
+    font-style: normal !important;
+  }
+  .modal-subhead-text-mob1{
+    font-family: 'Roboto'!important;
+    font-weight: 400 !important;
+    font-size: 2.6vw !important;
+    font-style: normal !important;
+    color: red !important;
+  }
+  .modal-subhead-text-mob2{
+    font-family: 'Roboto'!important;
+    font-weight: 400 !important;
+    font-size: 2.6vw !important;
+    font-style: normal !important;
+    margin-top: -1rem !important;
+  }
+  .dash-subhead-mob{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 3.3vw;
+    font-style: normal;
+  }
+  .sign-btn-modal-mob{
+    width: 100% !important;
+    background-color:  #009CDE !important;
+    font-family: 'Roboto'!important ;
+    font-weight: 500!important;
+    font-size: 4vw!important;
+    font-style: normal !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19) !important
+  }
+
+  .card-dash-mob{
+    background-color: white !important;
+    width: 300px !important;
+    color: white !important;
+    border-radius: 2%!important;
+    border: 1px solid #494949 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19) !important
+  }
+
+
+
+
+
+
+}

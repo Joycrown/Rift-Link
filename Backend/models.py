@@ -19,4 +19,4 @@ class User(Document):
     income = StringField()
     experience = StringField()
     account = StringField()
-    
+    meta = {'allow_inheritance':True}

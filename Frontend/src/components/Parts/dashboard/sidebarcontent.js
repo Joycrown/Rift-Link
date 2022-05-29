@@ -87,7 +87,7 @@ const SidebarContent = props => {
                       <img src={dashicon3} alt="LOGO" className = 'dashicon dashicon-tab dashicon-mob ps-3'/>
                     </div>
                     <div className="ps-3">
-                      <Link to = {'/dashboard'} className = "dashlink dashlink-tab dashlink-mob-2 pe-2">
+                      <Link to = {'/subscription'} className = "dashlink dashlink-tab dashlink-mob-2 pe-2">
                           My Subscriptions
                       </Link>
                     </div>

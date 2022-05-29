@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import url('//db.onlinewebfonts.com/c/b2215378fb1b991865ced500401f5282?family=SunsetSerial-Bold');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
@@ -8,10 +8,10 @@
   box-sizing: border-box;
 }
 .dash-subhead{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 2.5vw;
-    font-style: normal;
+    font-family: 'Roboto'!important;
+    font-weight: 500 !important;
+    font-size: 2.5vw !important;
+    font-style: normal !important;
 }
 .contact-btn{
   width: 100% !important;
@@ -26,8 +26,7 @@
   background-color: white !important;
   width: 250px !important;
   color: white !important;
-  border-radius: 10%!important;
-  border: none !important;
+  border-radius: 2%!important;
   border: 1px solid #494949 !important;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
               0 6px 20px 0 rgba(0,0,0,0.19) !important
@@ -36,11 +35,45 @@
   background-color: white !important;
   width: 100% !important;
 }
+.card-modal{
+  background-color: white !important;
+  width: 100% !important;
+  border-radius: 10px 10px 0px 0px !important;
+}
+.card-body-modal{
+  background-color: white !important;
+  border: none !important;
+  border-radius: 10px 10px 0px 0px !important;
+}
+.modal-head{
+  background-color: #003087 !important;
+ 
+}
+.modal-head-text{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 2vw;
+  font-style: normal;
+}
+.modal-close{
+  background-color: white !important;
+  color: white !important;
+}
 .acc-text{
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 1vw;
   font-style: normal;
+}
+.sign-btn-modal{
+  width: 60% !important;
+  background-color:  #009CDE !important;
+  font-family: 'Roboto'!important ;
+  font-weight: 500!important;
+  font-size: 1.2vw!important;
+  font-style: normal !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+              0 6px 20px 0 rgba(0,0,0,0.19) !important
 }
 .dash-mob{
   display: none;
@@ -55,7 +88,7 @@
   .dash-subhead-tab{
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 3.5vw;
+    font-size: 7.5vw;
     font-style: normal;
 }
   .contact-btn-tab{
@@ -110,8 +143,7 @@
     background-color: white !important;
     width: 300px !important;
     color: white !important;
-    border-radius: 10%!important;
-    border: none !important;
+    border-radius: 2%!important;
     border: 1px solid #494949 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
                 0 6px 20px 0 rgba(0,0,0,0.19) !important
@@ -122,4 +154,4 @@
 
 
 
-}
+} */

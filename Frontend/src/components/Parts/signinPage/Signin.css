@@ -6,6 +6,13 @@
     padding: 0;
     box-sizing: border-box;
   }
+a.fp-link{
+    color: black !important;
+    text-decoration: none;
+}
+a.signup-link{
+    text-decoration: none;
+}
 
 .navbg{
     background-image: 
@@ -194,6 +201,12 @@
         font-size: 1.7vw!important;
         font-style: normal !important;
     }
+    .head-text-mob1{
+        font-family: 'Roboto'!important ;
+        font-weight: 600!important;
+        font-size: 5vw!important;
+        font-style: normal !important;
+    }
     .check-box-mob{
         font-family: 'Roboto'!important ;
         font-weight: 400!important;
@@ -219,5 +232,7 @@
         font-weight: 600!important;
         font-size: 3vw!important;
         font-style: normal !important;
+        margin-top: -0.2rem !important;
+        padding-left: 0.2rem !important;
     }
 }
